@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Nam/AndroidStudioProjects/MotherWeather/app/src/main/res/values/array.xml -->
+    <eat-comment/>
+    <string-array name="actor">
+		<item>크리스 에반스</item>
+		<item>로버트 다우니 주니어</item>
+		<item>마크 러팔로</item>
+		<item>크리스 햄스워스</item>
+	</string-array>
+    <string-array name="avengers">
+		<item>캡틴 아메리카</item>
+		<item>아이언맨</item>
+		<item>헐크</item>
+		<item>토르</item>
+	</string-array>
+    <string-array name="view_type">
+		<item>TextView</item>
+		<item>ScrollView</item>
+		<item>ListView</item>
+	</string-array>
+    <!-- From: file:/C:/Users/Nam/AndroidStudioProjects/MotherWeather/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/Nam/AndroidStudioProjects/MotherWeather/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Weather</string>
+    <string name="dong">동 면 선택</string>
+    <string name="gugun">구 군 선택</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sido">시 도 선택</string>
+    <!-- From: file:/C:/Users/Nam/AndroidStudioProjects/MotherWeather/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

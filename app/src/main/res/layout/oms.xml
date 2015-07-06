@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+	
+           <ListView
+            android:id="@+id/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            </ListView>
+     
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <Button
+                    android:id="@+id/jungki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="중기예보" >
+                </Button>
+
+                <Button
+                    android:id="@+id/jeonkuk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="전국날씨" >
+                </Button>
+
+                <Button
+                    android:id="@+id/weather_video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="날씨영상" >
+                </Button>
+
+                <Button
+                    android:id="@+id/sea_weather"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="바다날씨" >
+                </Button>
+
+                <Button
+                    android:id="@+id/mountain_weather"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="산악날씨" >
+                </Button>
+
+                <Button
+                    android:id="@+id/living_weather"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="생활기상" >
+                </Button>
+
+                <Button
+                    android:id="@+id/typhoon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="태풍정보" >
+                </Button>
+
+                <Button
+                    android:id="@+id/yellow_sand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="황사정보" >
+                </Button>
+
+                <Button
+                    android:id="@+id/earthquake"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="지진정보" >
+                </Button>
+            </LinearLayout>
+        
+    </ScrollView>
+
+</LinearLayout>

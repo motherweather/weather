@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.answerofgod.weather"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mothericon"
+        android:label="Weather"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.answerofgod.weather.TabViewActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.answerofgod.weather.SplashActivity" >
+        </activity>
+        <activity android:name="com.answerofgod.weather.MainActivity" >
+        </activity>
+        <activity android:name="com.answerofgod.weather.MinSun" >
+        </activity>
+        <activity android:name="com.answerofgod.weather.SpinnerActivity" >
+        </activity>
+        <activity android:name="com.answerofgod.weather.WeatherPage" >
+        </activity>
+        <activity android:name="com.answerofgod.weather.showWeather" >
+        </activity>
+        <activity android:name="com.answerofgod.weather.Web" >
+        </activity>
+        <activity android:name="com.answerofgod.weather.theboki" >
+        </activity>
+        <activity android:name="com.answerofgod.weather.iconTextItem" >
+        </activity>
+        <activity android:name="com.answerofgod.weather.iconTextListAdapter" >
+        </activity>
+        <activity android:name="com.answerofgod.weather.iconTextView" >
+        </activity>
+        <activity android:name="com.answerofgod.weather.board_activity" >
+        </activity>
+        <activity android:name="com.answerofgod.weather.Android_BookActivity" >
+        </activity>
+        <activity android:name="com.answerofgod.weather.CameraRenderer" >
+        </activity>
+        <activity android:name="com.answerofgod.weather.CameraView" >
+        </activity>
+        <activity android:name="com.answerofgod.weather.Weather" >
+        </activity>
+        <activity android:name="com.answerofgod.weather.argumentedreality" >
+        </activity>
+    </application>
+
+</manifest>

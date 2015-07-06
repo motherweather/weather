@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.answerofgod.weather"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mothericon"
+        android:label="Weather"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".TabViewActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SplashActivity" >
+        </activity>
+        <activity android:name=".MainActivity" >
+        </activity>
+        <activity android:name=".MinSun" >
+        </activity>
+        <activity android:name=".SpinnerActivity" >
+        </activity>
+        <activity android:name=".WeatherPage" >
+        </activity>
+        <activity android:name=".showWeather" >
+        </activity>
+        <activity android:name=".Web" >
+        </activity>
+        <activity android:name=".theboki" >
+        </activity>
+        <activity android:name=".iconTextItem" >
+        </activity>
+        <activity android:name=".iconTextListAdapter" >
+        </activity>
+        <activity android:name=".iconTextView" >
+        </activity>
+        <activity android:name=".board_activity" >
+        </activity>
+        <activity android:name=".Android_BookActivity" >
+        </activity>
+        <activity android:name=".CameraRenderer" >
+        </activity>
+        <activity android:name=".CameraView" >
+        </activity>
+        <activity android:name=".Weather" >
+        </activity>
+         <activity android:name=".argumentedreality" >
+        </activity>
+        
+    </application>
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" >
+    </uses-permission>
+
+</manifest>

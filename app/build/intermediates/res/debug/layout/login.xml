@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:padding="10dp"
+	android:background="@drawable/loading" 
+	>
+	
+
+	
+	<RelativeLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"
+	    android:padding="10dp"
+	    
+	    android:background="#aaffffff"
+	    >
+		<TextView 
+			android:id="@+id/usernameLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingTop="4dp"
+			android:text="Username : "
+			android:textColor="#ff222222"
+			android:textSize="18dp"
+			/>
+		<EditText 
+			android:id="@+id/usernameEntry"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/usernameLabel" 
+			android:layout_alignBaseline="@id/usernameLabel"
+			android:layout_marginLeft="4dp"
+			/>
+		<TextView 
+			android:id="@+id/passwordLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingTop="16dp"
+			android:layout_below="@id/usernameLabel"
+			android:text="Password  : "
+			android:textColor="#ff222222"
+			android:textSize="18dp"
+			/>
+		<EditText 
+			android:id="@+id/passwordEntry"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="4dp"
+			android:layout_toRightOf="@id/passwordLabel" 
+			android:layout_alignBaseline="@id/passwordLabel"
+			android:inputType="textPassword"
+			/>	
+
+		<Button
+		    android:id="@+id/loginBtn"
+		    android:layout_width="100dp"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@id/passwordLabel"
+		    android:layout_marginLeft="20dp"
+		    android:layout_marginTop="16dp"
+		    android:drawableLeft="@drawable/ok_btn"
+		    android:drawablePadding="2dp"
+		    android:enabled="true"
+		    android:text="로그인" />
+
+		<Button 
+			android:id="@+id/exitBtn"
+			android:layout_width="110dp"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/passwordLabel"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="20dp"
+			android:layout_marginTop="16dp"
+			android:text="회원가입" 
+			android:drawableLeft="@drawable/cancel_btn"
+			android:drawablePadding="2dp"
+			/>
+	</RelativeLayout>
+	
+</RelativeLayout>
+<!-- From: file:/C:/Users/Nam/AndroidStudioProjects/MotherWeather/app/src/main/res/layout/login.xml -->
